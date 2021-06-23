@@ -1,4 +1,4 @@
-# Checklist
+# List
 Creating my job-hunting checklist 
 
 ## Check it out
