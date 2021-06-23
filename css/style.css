@@ -61,7 +61,7 @@ p:nth-of-type(2) {
 
 button {
   color: white;
-  background: #508abc;
+  background: #52bab3;
   border: solid 1px;
   border-color: rgba(0, 0, 0, .1);
   cursor: pointer;
@@ -80,7 +80,7 @@ p + button {
 }
 
 .list li button + button {
-  background: #508abc;
+  background: #52bab3;
 }
 
 li button:first-child {
