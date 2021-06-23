@@ -6,6 +6,14 @@ const descriptionButton = document.querySelector('button.description')
 const addItemInput = document.querySelector('input.addItemInput')
 const addItemButton = document.querySelector('button.addItemButton')
 const deleteItemButton = document.querySelector('button.deleteItemButton')
+const listItems = document.getElementsByTagName('li')[0]
+
+listItems.addEventListener('mouseover', () => {
+  listItems.textContent = listItems.textContent.toUpperCase()
+})
+listItems.addEventListener('mouseout', () => {
+  listItems.textContent = listItems.textContent.toLowerCase()
+})
 
 toggleList.addEventListener('click', () => {
   if (listDiv.style.display == 'none') {
