@@ -1,6 +1,8 @@
 const toggleList = document.getElementById('toggleList')
 const listDiv = document.querySelector('.list')
-const listUl = listDiv.querySelector('ul')
+const descriptionInput = document.querySelector('input.description')
+const descriptionP = document.querySelector('p.description')
+const descriptionButton = document.querySelector('button.description')
 const addItemInput = document.querySelector('input.addItemInput')
 const addItemButton = document.querySelector('button.addItemButton')
 const deleteItemButton = document.querySelector('button.deleteItemButton')
@@ -13,6 +15,11 @@ toggleList.addEventListener('click', () => {
     toggleList.textContent = 'SHOW LIST'
     listDiv.style.display = 'none'
   }
+})
+
+descriptionButton.addEventListener('click', () => {
+  descriptionP.innerHTML = descriptionInput.value
+  descriptionInput.value = ''
 })
 
 addItemButton.addEventListener('click', () => {
