@@ -1,0 +1,97 @@
+/* MAIN STYLES */
+
+body {
+  background-color: azure;
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+  padding: .5em 2.70em 3em;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h1 + p {
+  font-size: 1.1em;
+  margin-top: .5em;
+  margin-bottom: 2.70em;
+  padding-bottom: 1.35em;
+  border-bottom: 3px solid;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  padding: .5em .5em;
+  margin-bottom: .4em;
+  display: flex;
+  align-items: center;
+}
+
+input,
+button {
+  font-size: .9em;
+  padding: .7em 1em;
+  border-radius: .3em;
+  outline: 0;
+}
+
+input {
+  border: 1px solid black;
+  margin-right: 1em;
+}
+
+div {
+  margin-top: 2.8em;
+  padding: 1.5em 0 .5em;
+  border-top: 1px solid black;
+}
+
+p.description,
+p:nth-of-type(2) {
+  font-weight: bold;
+}
+
+/* BUTTONS */
+
+button {
+  color: white;
+  background: #508abc;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+
+button + button {
+  margin-left: .5em;
+}
+
+p + button {
+  background: #52bab3;
+}
+
+.list button + button {
+  background: #768da3;
+}
+
+.list li button + button {
+  background: #508abc;
+}
+
+li button:first-child {
+  margin-left: auto;
+  background: #52bab3;
+}
+
+.list li button:last-child {
+  background: #768da3;
+}
+
+li button {
+  font-size: .75em;
+  padding: .5em .7em;
+}
+
