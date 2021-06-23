@@ -1,7 +1,8 @@
 /* MAIN STYLES */
 
 body {
-  background-color: azure;
+  background-color: rgb(138, 89, 138);
+  color: azure;
   font-family: 'Merriweather', serif;
   line-height: 1.5;
   padding: .5em 2.70em 3em;
@@ -9,6 +10,7 @@ body {
 
 h1 {
   margin-bottom: 0;
+  color:  #52bab3;
 }
 
 h1 + p {
