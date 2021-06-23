@@ -8,21 +8,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <title>Checklist</title>
+  <title>The List</title>
 </head>
 <body>
-  <h1 id="myHeading">Dainy's Checklist</h1>
+  <h1 id="myHeading">Dainy's To Do List</h1>
   <p>A way to keep me organized in my job hunting.</p>
-  <button id="toggleList">Hide List</button>
+  <button id="toggleList">HIDE LIST</button>
     <div class="list">
-      <p class="description">Todos:</p>
-      <input type="text" class="description">
-      <button class="description">change</button>
+      <p>To Do's</p>
         <ul>
-          <li>Look for one or two jobs on LinkedIn and Seek</li>
-          <li>Research the company</li>
-          <li>Personalise my cover letter</li>
+          <li>Look for one or two jobs on LinkedIn and Seek<button>delete</button></li>
+          <li>Research the company<button>delete</button></li>
+          <li>Personalise my cover letter<button>delete</button></li>
         </ul>
+        <input type="text" class="addItemInput">
+        <button class="addItemButton">add</button>
+        <button class="deleteItemButton">delete last todo</button>
     </div>
   
   <script src="js/main.js"></script>
