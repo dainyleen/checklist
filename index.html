@@ -11,14 +11,19 @@
   <title>Checklist</title>
 </head>
 <body>
-  <h1>Dainy's Checklist</h1>
+  <h1 id="myHeading">Dainy's Checklist</h1>
   <p>A way to keep me organized in my job hunting.</p>
-    <p>Todos:</p>
-      <ul>
-        <li>Look for one or two jobs on LinkedIn and Seek</li>
-        <li>Research the company</li>
-        <li>Personalise my cover letter</li>
-      </ul>
+  <button id="toggleList">Hide List</button>
+    <div class="list">
+      <p class="description">Todos:</p>
+      <input type="text" class="description">
+      <button class="description">change</button>
+        <ul>
+          <li>Look for one or two jobs on LinkedIn and Seek</li>
+          <li>Research the company</li>
+          <li>Personalise my cover letter</li>
+        </ul>
+    </div>
   
   <script src="js/main.js"></script>
 </body>
