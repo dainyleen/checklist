@@ -15,9 +15,9 @@ function attachListItemButtons (li) {
   li.appendChild(remove)
 }
 
-// for (let i = 0; i < lis.length; i++) {
-//   attachListItemButtons(lis[i])
-// }
+for (let i = 0; i < lis.length; i++) {
+  attachListItemButtons(lis[i])
+}
 
 listUl.addEventListener('click', (event) => {
   if (event.target.tagName == 'BUTTON') {
