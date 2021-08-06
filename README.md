@@ -1,5 +1,5 @@
 # List
 Creating my job-hunting to do list (client-side only)
 
-## Check it out
+## GitHub Page
 https://dainyleen.github.io/list
